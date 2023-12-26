@@ -1,6 +1,7 @@
 name: Build and deploy Aseprite
 
 on:
+workflow_dispatch: # Putting here is also fine!!
   schedule:
     - cron: '0 0 * * *'
   push:
